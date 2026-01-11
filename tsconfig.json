@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "strict": true,
+        "jsx": "react-jsx",
+        "types": [
+            "vite/client",
+            "node"
+        ],
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "resources/js/*"
+            ]
+        }
+    },
+    "include": [
+        "resources/js/**/*.ts",
+        "resources/js/**/*.tsx",
+        "resources/js/**/*.d.ts",
+        "resources/js/**/*.jsx",
+        "resources/js/types/**/*.d.ts"
+    ]
+}
